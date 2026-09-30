@@ -14,10 +14,10 @@ Proyek ini bertujuan untuk mengembangkan konsep Digital Twin yang dapat membantu
 
 | No. | Nama | Tugas |
 |---|---|---|
-| 1 | Nama Anggota 1 | Project Charter |
-| 2 | Nama Anggota 2 | Stakeholder Registration |
-| 3 | Nama Anggota 3 | Work Breakdown Structure (WBS) |
-| 4 | Nama Anggota 4 | Function Point Analysis |
+| 1 | Chika Dena | Project Charter |
+| 2 | M. Firdausyah | Stakeholder Registration |
+| 3 | Nazwa Dara Musyaraf | Work Breakdown Structure (WBS) |
+| 4 | Irma Suraya | Function Point Analysis |
 
 ## Pembagian Dokumen
 
