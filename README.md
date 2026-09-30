@@ -23,7 +23,7 @@ Proyek ini bertujuan untuk mengembangkan konsep Digital Twin yang dapat membantu
 
 Seluruh hasil pengerjaan proyek disimpan dalam folder:
 
-`Digital-Twin-UMKM-Warung-Bu-Pita`
+`Digital Twin UMKM Warung Bu Pita`
 
 Dokumen yang terdapat di dalam folder tersebut meliputi:
 
