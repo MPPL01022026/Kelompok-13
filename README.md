@@ -58,13 +58,13 @@ flowchart LR
 
 ## Anggota Kelompok
 
-| | Nama | Tugas | GitHub |
+| | Nama | Peran | GitHub |
 |:-:|------|-------|--------|
-| <img src="https://github.com/chikadena.png" width="48" alt="Chika Dena"> | Chika Dena | Project Charter | [@chikadena](https://github.com/chikadena) |
-| <img src="https://github.com/Mfirdaus809.png" width="48" alt="M. Firdausyah"> | M. Firdausyah | Stakeholder Registration | [@Mfirdaus809](https://github.com/Mfirdaus809) |
-| <img src="https://github.com/nazwa-daraa.png" width="48" alt="Nazwa Dara Musyaraf"> | Nazwa Dara Musyaraf | Work Breakdown Structure (WBS) | [@nazwa-daraa](https://github.com/nazwa-daraa) |
-| <img src="https://github.com/irmalgs048-coder.png" width="48" alt="Irma Suraya"> | Irma Suraya | - | [@irmalgs048-coder](https://github.com/irmalgs048-coder) |
-
+| <img src="https://github.com/chikadena.png" width="48" alt="Chika Dena"> | Chika Dena | Project Manager | [@chikadena](https://github.com/chikadena) |
+| <img src="https://github.com/Mfirdaus809.png" width="48" alt="M. Firdausyah"> | M. Firdausyah | Anggota | [@Mfirdaus809](https://github.com/Mfirdaus809) |
+| <img src="https://github.com/nazwa-daraa.png" width="48" alt="Nazwa Dara Musyaraf"> | Nazwa Dara Musyaraf | Anggota | [@nazwa-daraa](https://github.com/nazwa-daraa) |
+| <img src="https://github.com/irmalgs048-coder.png" width="48" alt="Irma Suraya"> | Irma Suraya | Anggota | [@irmalgs048-coder](https://github.com/irmalgs048-coder) |
+ 
 ## Dokumentasi
 
 | Dokumen | Lokasi |
@@ -72,7 +72,7 @@ flowchart LR
 | Project Charter | [Digital Twin UMKM Warung Bu Pita](<./Digital Twin UMKM Warung Bu Pita>) |
 | Stakeholder Register | [Digital Twin UMKM Warung Bu Pita](<./Digital Twin UMKM Warung Bu Pita>) |
 | Work Breakdown Structure (WBS) | [Digital Twin UMKM Warung Bu Pita](<./Digital Twin UMKM Warung Bu Pita>) |
-
+| Function Point | [Digital Twin UMKM Warung Bu Pita](<./Digital Twin UMKM Warung Bu Pita>) |
 ---
 
 <p align="center">
