@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Alur Digital Twin: data produksi, stok, dan penjualan dari Warung Bu Pita masuk ke Digital Twin, diolah menjadi informasi untuk pemilik, lalu menjadi keputusan yang kembali ke warung">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7d0a10"/>
+      <stop offset="1" stop-color="#b3141b"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="13" cy="13" r="2" fill="#ffe3a0"/>
+    </pattern>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#2e0204" flood-opacity="0.35"/>
+    </filter>
+    <marker id="arr" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto">
+      <path d="M2 2 L13 8 L2 14 Z" fill="#ffe3a0"/>
+    </marker>
+    <clipPath id="frame"><rect width="1200" height="400" rx="26"/></clipPath>
+  </defs>
+
+  <style>
+    .card { animation: rise .8s cubic-bezier(.2,.8,.2,1) both; }
+    .c1 { animation-delay: .1s; } .c2 { animation-delay: .35s; } .c3 { animation-delay: .6s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+    .flow { stroke-dasharray: 6 9; animation: dash 1.2s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -15; } }
+    .bob { animation: bob 3.6s ease-in-out infinite; }
+    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    .ghost { animation: ghost 3.6s ease-in-out infinite; }
+    @keyframes ghost { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    .ping { animation: ping 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes ping { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.5); opacity: .6; } }
+    @media (prefers-reduced-motion: reduce) {
+      .card, .flow, .bob, .ghost, .ping { animation: none; }
+      .dot { display: none; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)" font-family="Georgia, 'Times New Roman', serif">
+    <rect width="1200" height="400" fill="url(#bg)"/>
+    <rect width="1200" height="400" fill="url(#dots)" opacity="0.1"/>
+    <rect x="14" y="14" width="1172" height="372" rx="18" fill="none" stroke="#ffcf3d" stroke-opacity="0.5" stroke-width="1.5"/>
+
+    <text x="50" y="54" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#ffcf3d">ALUR DIGITAL TWIN WARUNG BU PITA</text>
+
+    <!-- garis alur -->
+    <g fill="none" stroke="#ffe3a0" stroke-width="3" stroke-linecap="round">
+      <path id="p1" class="flow" d="M336 160 L452 160" marker-end="url(#arr)"/>
+      <path id="p2" class="flow" d="M746 160 L862 160" marker-end="url(#arr)"/>
+      <path id="p3" class="flow" d="M1010 246 C1010 346 190 346 190 252" marker-end="url(#arr)"/>
+    </g>
+
+    <!-- keterangan garis -->
+    <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#ffe9a8" text-anchor="middle">
+      <text x="394" y="120">data produksi,</text><text x="394" y="137">stok, penjualan</text>
+      <text x="804" y="120">monitoring</text><text x="804" y="137">dan analisis</text>
+    </g>
+
+    <!-- titik data bergerak: satu putaran penuh -->
+    <g class="dot" fill="#ffcf3d">
+      <circle r="7" opacity="0">
+        <animateMotion dur="6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.02;0.2;1"><mpath href="#p1"/></animateMotion>
+        <animate attributeName="opacity" dur="6s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.02;0.04;0.18;0.2;1"/>
+      </circle>
+      <circle r="7" opacity="0">
+        <animateMotion dur="6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.22;0.4;1"><mpath href="#p2"/></animateMotion>
+        <animate attributeName="opacity" dur="6s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.22;0.24;0.38;0.4;1"/>
+      </circle>
+      <circle r="7" opacity="0">
+        <animateMotion dur="6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.42;0.92;1"><mpath href="#p3"/></animateMotion>
+        <animate attributeName="opacity" dur="6s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.42;0.45;0.89;0.92;1"/>
+      </circle>
+    </g>
+
+    <!-- label jalur kembali -->
+    <g>
+      <rect x="420" y="301" width="360" height="30" rx="15" fill="#8f0c12" stroke="#ffcf3d" stroke-opacity="0.6" stroke-width="1.5"/>
+      <text x="600" y="321" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#ffe9a8" text-anchor="middle">keputusan pemilik: produksi dan belanja bahan</text>
+    </g>
+
+    <!-- 1: warung -->
+    <g class="card c1" filter="url(#sh)">
+      <rect x="50" y="80" width="280" height="166" rx="28" fill="#fff4d6"/>
+      <circle cx="190" cy="136" r="38" fill="#ffe3a0"/>
+      <g transform="translate(190 136)"><g class="bob">
+        <rect x="-22" y="-2" width="44" height="22" rx="3" fill="#c27f35"/>
+        <rect x="-19" y="2" width="38" height="4" rx="2" fill="#8a5523"/>
+        <g>
+          <rect x="-24" y="-22" width="8" height="14" fill="#b3141b"/><rect x="-16" y="-22" width="8" height="14" fill="#fff4d6"/>
+          <rect x="-8" y="-22" width="8" height="14" fill="#b3141b"/><rect x="0" y="-22" width="8" height="14" fill="#fff4d6"/>
+          <rect x="8" y="-22" width="8" height="14" fill="#b3141b"/><rect x="16" y="-22" width="8" height="14" fill="#fff4d6"/>
+          <g><circle cx="-20" cy="-8" r="4" fill="#b3141b"/><circle cx="-12" cy="-8" r="4" fill="#fff4d6"/><circle cx="-4" cy="-8" r="4" fill="#b3141b"/><circle cx="4" cy="-8" r="4" fill="#fff4d6"/><circle cx="12" cy="-8" r="4" fill="#b3141b"/><circle cx="20" cy="-8" r="4" fill="#fff4d6"/></g>
+        </g>
+        <circle cx="-8" cy="-4" r="0" fill="none"/>
+        <circle cx="-6" cy="-3" r="0" fill="none"/>
+        <ellipse cx="-8" cy="-1" rx="6" ry="3.5" fill="#f2a53c"/>
+        <ellipse cx="8" cy="-1" rx="6" ry="3.5" fill="#e9b24f"/>
+      </g></g>
+      <text x="190" y="206" font-size="25" font-weight="700" fill="#7d0a10" text-anchor="middle">Warung Bu Pita</text>
+      <text x="190" y="228" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#7d0a10" fill-opacity="0.8" text-anchor="middle">kondisi nyata</text>
+    </g>
+
+    <!-- 2: digital twin -->
+    <g class="card c2" filter="url(#sh)">
+      <rect x="460" y="80" width="280" height="166" rx="28" fill="#ffcf3d"/>
+      <circle cx="600" cy="136" r="38" fill="#fff4d6"/>
+      <g transform="translate(595 141)"><g class="bob">
+        <g class="ghost" transform="translate(10 -8)" fill="none" stroke="#7d0a10" stroke-width="1.8" stroke-dasharray="3 3" stroke-linejoin="round">
+          <polygon points="0,-20 17,-10 17,10 0,20 -17,10 -17,-10"/>
+          <polyline points="-17,-10 0,0 17,-10"/><line x1="0" y1="0" x2="0" y2="20"/>
+        </g>
+        <polygon points="0,-20 17,-10 0,0 -17,-10" fill="#e23a1f"/>
+        <polygon points="-17,-10 0,0 0,20 -17,10" fill="#b3141b"/>
+        <polygon points="17,-10 0,0 0,20 17,10" fill="#7d0a10"/>
+      </g></g>
+      <text x="600" y="206" font-size="25" font-weight="700" fill="#7d0a10" text-anchor="middle">Digital Twin</text>
+      <text x="600" y="228" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#7d0a10" fill-opacity="0.8" text-anchor="middle">model 3D warung</text>
+    </g>
+
+    <!-- 3: informasi -->
+    <g class="card c3" filter="url(#sh)">
+      <rect x="870" y="80" width="280" height="166" rx="28" fill="#fff4d6"/>
+      <circle cx="1010" cy="136" r="38" fill="#ffe3a0"/>
+      <g transform="translate(1010 138)"><g class="bob">
+        <rect x="-21" y="4" width="11" height="14" rx="3" fill="#f2a53c"/>
+        <rect x="-5.5" y="-8" width="11" height="26" rx="3" fill="#e23a1f"/>
+        <rect x="10" y="-20" width="11" height="38" rx="3" fill="#b3141b"/>
+        <circle class="ping" cx="15.5" cy="-27" r="4" fill="#ffcf3d" stroke="#7d0a10" stroke-width="1.5"/>
+      </g></g>
+      <text x="1010" y="206" font-size="25" font-weight="700" fill="#7d0a10" text-anchor="middle">Informasi</text>
+      <text x="1010" y="228" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#7d0a10" fill-opacity="0.8" text-anchor="middle">untuk pemilik warung</text>
+    </g>
+  </g>
+</svg>
