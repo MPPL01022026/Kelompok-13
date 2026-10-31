@@ -12,8 +12,11 @@
   <a href="#tentang-proyek"><img src="https://img.shields.io/badge/TENTANG-b91c1c?style=for-the-badge" alt="Tentang"></a>
   <a href="#ruang-lingkup"><img src="https://img.shields.io/badge/RUANG%20LINGKUP-d97706?style=for-the-badge" alt="Ruang Lingkup"></a>
   <a href="#rencana-pengembangan"><img src="https://img.shields.io/badge/RENCANA-b91c1c?style=for-the-badge" alt="Rencana"></a>
-  <a href="#anggota-kelompok"><img src="https://img.shields.io/badge/ANGGOTA-d97706?style=for-the-badge" alt="Anggota"></a>
-  <a href="#dokumentasi"><img src="https://img.shields.io/badge/DOKUMENTASI-b91c1c?style=for-the-badge" alt="Dokumentasi"></a>
+  <a href="#status-progres"><img src="https://img.shields.io/badge/PROGRES-d97706?style=for-the-badge" alt="Progres"></a>
+  <a href="#rencana-fitur"><img src="https://img.shields.io/badge/FITUR-b91c1c?style=for-the-badge" alt="Fitur"></a>
+  <a href="#teknologi-dan-tools"><img src="https://img.shields.io/badge/TEKNOLOGI-d97706?style=for-the-badge" alt="Teknologi"></a>
+  <a href="#anggota-kelompok"><img src="https://img.shields.io/badge/ANGGOTA-b91c1c?style=for-the-badge" alt="Anggota"></a>
+  <a href="#dokumentasi"><img src="https://img.shields.io/badge/DOKUMENTASI-d97706?style=for-the-badge" alt="Dokumentasi"></a>
 </p>
 
 <p align="center">
@@ -30,12 +33,9 @@ Repository ini berisi dokumentasi dan hasil pengerjaan proyek Digital Twin untuk
 
 Pencatatan produksi, stok bahan, dan penjualan di warung masih dilakukan secara manual, sehingga pemilik sulit melihat kondisi usaha secara utuh. Digital Twin dipakai sebagai representasi digital dari kondisi warung yang diperbarui dengan data aktual, agar aktivitas usaha bisa dipantau lebih terstruktur.
 
-```mermaid
-flowchart LR
-    A["Warung Bu Pita<br/>(kondisi nyata)"] -->|"data produksi,<br/>stok, penjualan"| B["Digital Twin"]
-    B -->|"monitoring<br/>dan analisis"| C["Informasi untuk<br/>pemilik"]
-    C -->|"keputusan"| A
-```
+<p align="center">
+  <img src="assets/alur.svg" alt="Alur Digital Twin: data dari warung masuk ke Digital Twin, diolah menjadi informasi untuk pemilik, lalu menjadi keputusan yang kembali ke warung" width="100%">
+</p>
 
 ## Ruang Lingkup
 
@@ -55,6 +55,42 @@ flowchart LR
 | 4. Pengembangan | Membangun pencatatan data dan tampilan monitoring | Prototipe sistem |
 | 5. Pengujian | Mencoba prototipe dengan data nyata dari warung | Hasil uji dan catatan perbaikan |
 | 6. Evaluasi | Menilai manfaat sistem bagi pemilik dan menyusun laporan akhir | Laporan proyek |
+
+## Status Progres
+
+| Tahap | Status | Keterangan |
+|-------|:------:|------------|
+| 1. Perencanaan | ![Selesai](https://img.shields.io/badge/-Selesai-15803d?style=flat-square) | Project Charter, Stakeholder Register, WBS, dan Function Point sudah tersedia |
+| 2. Analisis kebutuhan | ![Sedang dikerjakan](https://img.shields.io/badge/-Sedang%20dikerjakan-d97706?style=flat-square) | Pengumpulan data produksi, stok, dan penjualan dari warung |
+| 3. Perancangan | ![Belum dimulai](https://img.shields.io/badge/-Belum%20dimulai-6b7280?style=flat-square) | Rancangan model Digital Twin dan struktur data |
+| 4. Pengembangan | ![Belum dimulai](https://img.shields.io/badge/-Belum%20dimulai-6b7280?style=flat-square) | Model 3D, pencatatan data, dan tampilan monitoring |
+| 5. Pengujian | ![Belum dimulai](https://img.shields.io/badge/-Belum%20dimulai-6b7280?style=flat-square) | Uji prototipe dengan data nyata |
+| 6. Evaluasi | ![Belum dimulai](https://img.shields.io/badge/-Belum%20dimulai-6b7280?style=flat-square) | Penilaian manfaat dan laporan akhir |
+
+## Rencana Fitur
+
+- [ ] Model 3D warung dengan area produksi, persediaan, dan penjualan
+- [ ] Form pencatatan produksi, stok bahan, dan penjualan harian
+- [ ] Tampilan 3D yang berubah mengikuti data
+- [ ] Grafik produksi dan penjualan per menu
+- [ ] Peringatan saat stok bahan menipis
+- [ ] Prediksi stok habis dan rekomendasi jumlah produksi
+- [ ] Pengembangan lanjutan: data dari sensor atau kasir digital
+
+## Teknologi dan Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,md,blender,threejs,react,vite,supabase" alt="Teknologi dan Tools">
+</p>
+
+| Kategori | Nama | Penggunaan dalam proyek | Status |
+|----------|------|-------------------------|:------:|
+| Version Control | [Git](https://git-scm.com/) dan [GitHub](https://github.com/) | Menyimpan dokumen, mencatat perubahan, dan kolaborasi tim | Digunakan |
+| Dokumentasi | [Markdown](https://www.markdownguide.org/) | Menulis README dan dokumentasi repository | Digunakan |
+| Desain Visual | [Canva](https://www.canva.com/) | Membuat spanduk dan materi visual proyek | Digunakan |
+| Pemodelan 3D | [Blender](https://www.blender.org/) | Membuat model 3D warung dan produk | Direncanakan |
+| Tampilan Web | [Three.js](https://threejs.org/) dan [React](https://react.dev/) | Menampilkan model 3D dan grafik di browser | Direncanakan |
+| Database | [Supabase](https://supabase.com/) | Menyimpan data produksi, stok, dan penjualan | Direncanakan |
 
 ## Anggota Kelompok
 
