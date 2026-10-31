@@ -61,9 +61,9 @@ Pencatatan produksi, stok bahan, dan penjualan di warung masih dilakukan secara 
 | Tahap | Status | Keterangan |
 |-------|:------:|------------|
 | 1. Perencanaan | ![Selesai](https://img.shields.io/badge/-Selesai-15803d?style=flat-square) | Project Charter, Stakeholder Register, WBS, dan Function Point sudah tersedia |
-| 2. Analisis kebutuhan | ![Sedang dikerjakan](https://img.shields.io/badge/-Sedang%20dikerjakan-d97706?style=flat-square) | Pengumpulan data produksi, stok, dan penjualan dari warung |
-| 3. Perancangan | ![Belum dimulai](https://img.shields.io/badge/-Belum%20dimulai-6b7280?style=flat-square) | Rancangan model Digital Twin dan struktur data |
-| 4. Pengembangan | ![Belum dimulai](https://img.shields.io/badge/-Belum%20dimulai-6b7280?style=flat-square) | Model 3D, pencatatan data, dan tampilan monitoring |
+| 2. Analisis kebutuhan | ![Selesai](https://img.shields.io/badge/-Selesai-15803d?style=flat-square) | Pengumpulan data produksi, stok, dan penjualan dari warung |
+| 3. Perancangan | ![Selesai](https://img.shields.io/badge/-Selesai-15803d?style=flat-square) | Rancangan model Digital Twin dan struktur data |
+| 4. Pengembangan | ![Sedang dikerjakan](https://img.shields.io/badge/-Sedang%20dikerjakan-d97706?style=flat-square) | Model 3D, pencatatan data, dan tampilan monitoring |
 | 5. Pengujian | ![Belum dimulai](https://img.shields.io/badge/-Belum%20dimulai-6b7280?style=flat-square) | Uji prototipe dengan data nyata |
 | 6. Evaluasi | ![Belum dimulai](https://img.shields.io/badge/-Belum%20dimulai-6b7280?style=flat-square) | Penilaian manfaat dan laporan akhir |
 
