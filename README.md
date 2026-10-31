@@ -58,13 +58,17 @@ flowchart LR
 
 ## Anggota Kelompok
 
-| | Nama | Peran | GitHub |
-|:-:|------|-------|--------|
-| <img src="https://github.com/chikadena.png" width="48" alt="Chika Dena"> | Chika Dena | Project Manager | [@chikadena](https://github.com/chikadena) |
-| <img src="https://github.com/Mfirdaus809.png" width="48" alt="M. Firdausyah"> | M. Firdausyah | Anggota | [@Mfirdaus809](https://github.com/Mfirdaus809) |
-| <img src="https://github.com/nazwa-daraa.png" width="48" alt="Nazwa Dara Musyaraf"> | Nazwa Dara Musyaraf | Anggota | [@nazwa-daraa](https://github.com/nazwa-daraa) |
-| <img src="https://github.com/irmalgs048-coder.png" width="48" alt="Irma Suraya"> | Irma Suraya | Anggota | [@irmalgs048-coder](https://github.com/irmalgs048-coder) |
- 
+<p align="center">
+  <img src="assets/anggota.svg" alt="Anggota Kelompok 13: Chika Dena (Project Manager), M. Firdausyah, Nazwa Dara Musyaraf, dan Irma Suraya" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/chikadena">@chikadena</a> ·
+  <a href="https://github.com/Mfirdaus809">@Mfirdaus809</a> ·
+  <a href="https://github.com/nazwa-daraa">@nazwa-daraa</a> ·
+  <a href="https://github.com/irmalgs048-coder">@irmalgs048-coder</a>
+</p>
+
 ## Dokumentasi
 
 | Dokumen | Lokasi |
@@ -73,6 +77,7 @@ flowchart LR
 | Stakeholder Register | [Digital Twin UMKM Warung Bu Pita](<./Digital Twin UMKM Warung Bu Pita>) |
 | Work Breakdown Structure (WBS) | [Digital Twin UMKM Warung Bu Pita](<./Digital Twin UMKM Warung Bu Pita>) |
 | Function Point | [Digital Twin UMKM Warung Bu Pita](<./Digital Twin UMKM Warung Bu Pita>) |
+
 ---
 
 <p align="center">
