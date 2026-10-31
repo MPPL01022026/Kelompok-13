@@ -80,14 +80,15 @@ Pencatatan produksi, stok bahan, dan penjualan di warung masih dilakukan secara 
 ## Teknologi dan Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,md,blender,threejs,react,vite,supabase" alt="Teknologi dan Tools">
+  <img src="https://skillicons.dev/icons?i=git,github,md,nodejs,blender,threejs,react,vite,supabase" alt="Teknologi dan Tools">
 </p>
 
 | Kategori | Nama | Penggunaan dalam proyek | Status |
 |----------|------|-------------------------|:------:|
 | Version Control | [Git](https://git-scm.com/) dan [GitHub](https://github.com/) | Menyimpan dokumen, mencatat perubahan, dan kolaborasi tim | Digunakan |
-| Dokumentasi | [Markdown](https://www.markdownguide.org/) | Menulis README dan dokumentasi repository | Digunakan |
 | Desain Visual | [Canva](https://www.canva.com/) | Membuat spanduk dan materi visual proyek | Digunakan |
+| Kolaborasi Tim | [Lark](https://www.larksuite.com/) | Koordinasi tim, pembagian tugas, dan catatan pekerjaan | Digunakan |
+| Backend | [Node.js](https://nodejs.org/) | Menjalankan JavaScript di sisi server dan alat pengembangan web | Direncanakan |
 | Pemodelan 3D | [Blender](https://www.blender.org/) | Membuat model 3D warung dan produk | Direncanakan |
 | Tampilan Web | [Three.js](https://threejs.org/) dan [React](https://react.dev/) | Menampilkan model 3D dan grafik di browser | Direncanakan |
 | Database | [Supabase](https://supabase.com/) | Menyimpan data produksi, stok, dan penjualan | Direncanakan |
