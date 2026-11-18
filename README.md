@@ -37,45 +37,208 @@ Pencatatan produksi, stok bahan, dan penjualan di warung masih dilakukan secara 
   <img src="assets/alur.svg" alt="Alur Digital Twin: data dari warung masuk ke Digital Twin, diolah menjadi informasi untuk pemilik, lalu menjadi keputusan yang kembali ke warung" width="100%">
 </p>
 
-### 📌 Ruang Lingkup Proyek
 
-| Aspek | Yang Dipantau | Manfaat bagi Warung |
-|:---|:---|:---|
-| 🏭 **Produksi** | Jumlah produksi harian per menu | Produksi lebih terencana dan tidak berlebih |
-| 📦 **Persediaan** | Stok bahan baku dan barang jadi | Stok menipis diketahui lebih awal |
-| 📊 **Penjualan** | Jumlah terjual per menu | Menu yang laris dan yang sepi mudah terlihat |
+<!-- RUANG LINGKUP -->
+<h2>Ruang Lingkup Proyek</h2>
 
-## Rencana Pengembangan
+<table>
+  <thead>
+    <tr>
+      <th align="center" width="16%">ASPEK</th>
+      <th width="38%">YANG DIPANTAU</th>
+      <th width="46%">MANFAAT BAGI WARUNG</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Produksi</strong></td>
+      <td>Jumlah produksi harian per menu</td>
+      <td>Produksi lebih terencana dan tidak berlebih</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Persediaan</strong></td>
+      <td>Stok bahan baku dan barang jadi</td>
+      <td>Stok menipis diketahui lebih awal</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Penjualan</strong></td>
+      <td>Jumlah terjual per menu</td>
+      <td>Menu yang laris dan yang sepi mudah terlihat</td>
+    </tr>
+  </tbody>
+</table>
 
-| Tahap | Kegiatan | Keluaran |
-|-------|----------|----------|
-| 1. Perencanaan | Menyusun ruang lingkup, pihak terkait, dan rincian pekerjaan | Project Charter, Stakeholder Register, WBS |
-| 2. Analisis kebutuhan | Mengamati alur kerja warung dan mengumpulkan data produksi, stok, dan penjualan | Daftar kebutuhan dan alur proses |
-| 3. Perancangan | Merancang model Digital Twin untuk tiga aspek yang dipantau | Rancangan model dan struktur data |
-| 4. Pengembangan | Membangun pencatatan data dan tampilan monitoring | Prototipe sistem |
-| 5. Pengujian | Mencoba prototipe dengan data nyata dari warung | Hasil uji dan catatan perbaikan |
-| 6. Evaluasi | Menilai manfaat sistem bagi pemilik dan menyusun laporan akhir | Laporan proyek |
+<br/>
 
-## Status Progres
+<!-- RENCANA PENGEMBANGAN -->
+<h2>Rencana Pengembangan</h2>
 
-| Tahap | Status | Keterangan |
-|-------|:------:|------------|
-| 1. Perencanaan | ![Selesai](https://img.shields.io/badge/-Selesai-15803d?style=flat-square) | Project Charter, Stakeholder Register, WBS, dan Function Point sudah tersedia |
-| 2. Analisis kebutuhan | ![Selesai](https://img.shields.io/badge/-Selesai-15803d?style=flat-square) | Pengumpulan data produksi, stok, dan penjualan dari warung |
-| 3. Perancangan | ![Selesai](https://img.shields.io/badge/-Selesai-15803d?style=flat-square) | Rancangan model Digital Twin dan struktur data |
-| 4. Pengembangan | ![Sedang dikerjakan](https://img.shields.io/badge/-Sedang%20dikerjakan-d97706?style=flat-square) | Model 3D, pencatatan data, dan tampilan monitoring |
-| 5. Pengujian | ![Belum dimulai](https://img.shields.io/badge/-Belum%20dimulai-6b7280?style=flat-square) | Uji prototipe dengan data nyata |
-| 6. Evaluasi | ![Belum dimulai](https://img.shields.io/badge/-Belum%20dimulai-6b7280?style=flat-square) | Penilaian manfaat dan laporan akhir |
+<table>
+  <thead>
+    <tr>
+      <th align="center" width="8%">NO.</th>
+      <th width="21%">TAHAP</th>
+      <th width="43%">KEGIATAN</th>
+      <th width="28%">KELUARAN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">01</td>
+      <td><strong>Perencanaan</strong></td>
+      <td>Menyusun ruang lingkup, pihak terkait, dan rincian pekerjaan</td>
+      <td>Project Charter, Stakeholder Register, WBS</td>
+    </tr>
+    <tr>
+      <td align="center">02</td>
+      <td><strong>Analisis Kebutuhan</strong></td>
+      <td>Mengamati alur kerja warung dan mengumpulkan data produksi, stok, dan penjualan</td>
+      <td>Daftar kebutuhan dan alur proses</td>
+    </tr>
+    <tr>
+      <td align="center">03</td>
+      <td><strong>Perancangan</strong></td>
+      <td>Merancang model Digital Twin untuk tiga aspek yang dipantau</td>
+      <td>Rancangan model dan struktur data</td>
+    </tr>
+    <tr>
+      <td align="center">04</td>
+      <td><strong>Pengembangan</strong></td>
+      <td>Membangun pencatatan data dan tampilan monitoring</td>
+      <td>Prototipe sistem</td>
+    </tr>
+    <tr>
+      <td align="center">05</td>
+      <td><strong>Pengujian</strong></td>
+      <td>Mencoba prototipe dengan data nyata dari warung</td>
+      <td>Hasil uji dan catatan perbaikan</td>
+    </tr>
+    <tr>
+      <td align="center">06</td>
+      <td><strong>Evaluasi</strong></td>
+      <td>Menilai manfaat sistem bagi pemilik dan menyusun laporan akhir</td>
+      <td>Laporan proyek</td>
+    </tr>
+  </tbody>
+</table>
 
-## Rencana Fitur
+<br/>
 
-- [ ] Model 3D warung dengan area produksi, persediaan, dan penjualan
-- [ ] Form pencatatan produksi, stok bahan, dan penjualan harian
-- [ ] Tampilan 3D yang berubah mengikuti data
-- [ ] Grafik produksi dan penjualan per menu
-- [ ] Peringatan saat stok bahan menipis
-- [ ] Prediksi stok habis dan rekomendasi jumlah produksi
-- [ ] Pengembangan lanjutan: data dari sensor atau kasir digital
+<!-- STATUS PROGRES -->
+<h2>Status Progres</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th align="center" width="8%">NO.</th>
+      <th width="23%">TAHAP</th>
+      <th align="center" width="19%">STATUS</th>
+      <th width="50%">KETERANGAN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">01</td>
+      <td>Perencanaan</td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/SELESAI-238636?style=flat-square" />
+      </td>
+      <td>Project Charter, Stakeholder Register, WBS, dan Function Point sudah tersedia</td>
+    </tr>
+    <tr>
+      <td align="center">02</td>
+      <td>Analisis Kebutuhan</td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/SELESAI-238636?style=flat-square" />
+      </td>
+      <td>Pengumpulan data produksi, stok, dan penjualan dari warung</td>
+    </tr>
+    <tr>
+      <td align="center">03</td>
+      <td>Perancangan</td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/SELESAI-238636?style=flat-square" />
+      </td>
+      <td>Rancangan model Digital Twin dan struktur data</td>
+    </tr>
+    <tr>
+      <td align="center">04</td>
+      <td>Pengembangan</td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/BERJALAN-E3A008?style=flat-square" />
+      </td>
+      <td>Model 3D, pencatatan data, dan tampilan monitoring</td>
+    </tr>
+    <tr>
+      <td align="center">05</td>
+      <td>Pengujian</td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/BELUM_DIMULAI-64748B?style=flat-square" />
+      </td>
+      <td>Uji prototipe dengan data nyata</td>
+    </tr>
+    <tr>
+      <td align="center">06</td>
+      <td>Evaluasi</td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/BELUM_DIMULAI-64748B?style=flat-square" />
+      </td>
+      <td>Penilaian manfaat dan laporan akhir</td>
+    </tr>
+  </tbody>
+</table>
+
+<br/>
+
+<!-- RENCANA FITUR -->
+<h2>Rencana Fitur</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th align="center" width="8%">NO.</th>
+      <th width="72%">FITUR YANG DIRENCANAKAN</th>
+      <th align="center" width="20%">KATEGORI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">01</td>
+      <td>Model 3D warung dengan area produksi, persediaan, dan penjualan</td>
+      <td align="center">Visualisasi</td>
+    </tr>
+    <tr>
+      <td align="center">02</td>
+      <td>Form pencatatan produksi, stok bahan, dan penjualan harian</td>
+      <td align="center">Pencatatan</td>
+    </tr>
+    <tr>
+      <td align="center">03</td>
+      <td>Tampilan 3D yang berubah mengikuti data</td>
+      <td align="center">Monitoring</td>
+    </tr>
+    <tr>
+      <td align="center">04</td>
+      <td>Grafik produksi dan penjualan per menu</td>
+      <td align="center">Analitik</td>
+    </tr>
+    <tr>
+      <td align="center">05</td>
+      <td>Peringatan saat stok bahan menipis</td>
+      <td align="center">Notifikasi</td>
+    </tr>
+    <tr>
+      <td align="center">06</td>
+      <td>Prediksi stok habis dan rekomendasi jumlah produksi</td>
+      <td align="center">Prediksi</td>
+    </tr>
+    <tr>
+      <td align="center">07</td>
+      <td>Pengembangan lanjutan: data dari sensor atau kasir digital</td>
+      <td align="center">Ekspansi</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Teknologi dan Tools
 
