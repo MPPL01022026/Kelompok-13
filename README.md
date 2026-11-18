@@ -37,13 +37,13 @@ Pencatatan produksi, stok bahan, dan penjualan di warung masih dilakukan secara 
   <img src="assets/alur.svg" alt="Alur Digital Twin: data dari warung masuk ke Digital Twin, diolah menjadi informasi untuk pemilik, lalu menjadi keputusan yang kembali ke warung" width="100%">
 </p>
 
-## Ruang Lingkup
+### 📌 Ruang Lingkup Proyek
 
-| Aspek | Yang dipantau | Manfaat bagi warung |
-|-------|---------------|---------------------|
-| Produksi | Jumlah produksi harian per menu | Produksi lebih terencana dan tidak berlebih |
-| Persediaan | Stok bahan baku dan barang jadi | Stok menipis diketahui lebih awal |
-| Penjualan | Jumlah terjual per menu | Menu yang laris dan yang sepi mudah terlihat |
+| Aspek | Yang Dipantau | Manfaat bagi Warung |
+|:---|:---|:---|
+| 🏭 **Produksi** | Jumlah produksi harian per menu | Produksi lebih terencana dan tidak berlebih |
+| 📦 **Persediaan** | Stok bahan baku dan barang jadi | Stok menipis diketahui lebih awal |
+| 📊 **Penjualan** | Jumlah terjual per menu | Menu yang laris dan yang sepi mudah terlihat |
 
 ## Rencana Pengembangan
 
